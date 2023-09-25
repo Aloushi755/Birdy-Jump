@@ -1,0 +1,82 @@
+* {
+    font-family:'Courier New', Courier, monospace ;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+.grid {
+    width: 400px;
+    height: 600px;
+    background-image: url(img/background.png);
+    position: relative;
+    font-size: 100px;
+    text-align: center;
+  }
+   
+  
+  .doodler {
+    width: 87px;
+    height: 85px;
+    background-image: url(img/doodler-guy.png);
+    position: absolute;
+  }
+  
+  .platform {
+    width: 85px;
+    height: 15px;
+    background-image: url(img/platform.png);
+    position: absolute;
+    z-index: 1;
+  }
+
+  #score-display {
+    padding: 5px 10px;
+    z-index: 1;
+  }
+  
+  /* CSS class for the "Play Again" button */
+.play-again-btn {
+    background-color: rgba(0, 0, 0, 0.9);
+    color: #fff;
+    margin-top: 40vh;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 40px;
+    font-size: 30px;
+    font-weight: bold;
+    z-index: 1001;
+  }
+
+  /* Style for the score display */
+.score {
+    background-color: rgba(255, 255, 255, 0.669);
+    font-size: 20px;
+    color: black;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+  
+  button {
+    z-index: 1;
+  }
+
+  #start-btn {
+    background-color: rgba(0, 0, 0, 0.733);
+    color: #fff;
+    margin-top: 40vh;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 40px;
+    font-size: 30px;
+    font-weight: bold;
+    z-index: 1;
+  }
